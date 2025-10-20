@@ -11,4 +11,4 @@ Suitable for friends who have a basic understanding of network technology to cra
 6、运行extract_data.py，按照提示操作，会将html的内容提取出来
 
 
-全是我写的，如果看起来和别人的很像，那说明好的设计总是相似的，而坏的bug则各有各的坏法。
+是我写的，如果看起来眼熟，那说明好的设计总是相似的，而坏的bug则各有各的坏法。本项目允许任何形式的使用，但因此导致的任何时间或精神上的损失本人概不负责。感谢！
