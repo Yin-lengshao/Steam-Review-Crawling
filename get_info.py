@@ -109,7 +109,6 @@ def crawl_steam_reviews(start_url, num_pages, save_dir="html_pages"):
                 if retry == max_retries - 1:
                     break
 
-            # 重试前等待
             if retry < max_retries - 1:
                 wait_time = random.uniform(10, 30)
                 print(f"等待 {wait_time:.1f} 秒后重试...")
@@ -213,4 +212,5 @@ if __name__ == "__main__":
     saved_files = crawl_steam_reviews(start_url, num_pages, save_dir)
     print(f"\n爬取完成！共保存 {len(saved_files)} 个HTML文件:")
     for filepath in saved_files:
+
         print(f"  - {filepath}")
